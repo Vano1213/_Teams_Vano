@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой Портфолио | Главная</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">Портфолио<span>.</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О себе</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Привет, я Алексей Иванов</h1>
+          <h2>Веб-разработчик и дизайнер</h2>
+          <p>Создаю современные и удобные веб-сайты с упором на дизайн, функциональность и производительность. У меня более 5 лет опыта в разработке веб-приложений.</p>
+          <div class="buttons">
+            <a href="portfolio.html" class="btn">Мои работы</a>
+            <a href="contact.html" class="btn btn-secondary">Связаться</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Алексей Иванов" class="profile-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Preview -->
+  <section class="about">
+    <div class="container">
+      <h2 class="section-title">Обо мне</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Я увлеченный веб-разработчик с опытом создания современных и отзывчивых веб-сайтов и приложений. Моя цель - создавать цифровые продукты, которые не только выглядят великолепно, но и обеспечивают исключительный пользовательский опыт.</p>
+          <p>Я постоянно изучаю новые технологии и методы разработки, чтобы оставаться в курсе последних тенденций в индустрии. Мой стек технологий включает HTML, CSS, JavaScript, React, Node.js и многое другое.</p>
+          <div class="skills">
+            <span class="skill">HTML5</span>
+            <span class="skill">CSS3</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">UI/UX Дизайн</span>
+          </div>
+          <a href="about.html" class="btn" style="margin-top: 2rem;">Узнать больше</a>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80" alt="Рабочее место">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <a href="index.html" class="logo" style="color: white;">Портфолио<span>.</span></a>
+        <p>Создаю цифровые продукты, которые вдохновляют</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 Мой Портфолио. Все права защищены.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Мобильное меню
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+    
+    // Закрытие меню при клике на ссылку
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        hamburger.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>

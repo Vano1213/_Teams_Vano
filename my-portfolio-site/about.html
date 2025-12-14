@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой Портфолио | О себе</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">Портфолио<span>.</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О себе</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Hero -->
+  <section class="hero" style="padding: 150px 0 80px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text" style="color: white; text-align: center; width: 100%;">
+          <h1>Обо мне</h1>
+          <p style="font-size: 1.3rem; max-width: 800px; margin: 0 auto;">Узнайте больше о моем опыте, навыках и подходе к работе</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Details -->
+  <section class="about" style="padding: 80px 0;">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">Мой путь в разработке</h2>
+          <p>Мой интерес к веб-разработке начался еще в университете, когда я впервые познакомился с HTML и CSS. С тех пор я прошел путь от создания простых статических страниц до сложных веб-приложений.</p>
+          <p>За последние 5 лет я работал над разнообразными проектами - от корпоративных сайтов до интернет-магазинов и веб-приложений. Я ценю чистый, поддерживаемый код и ориентированный на пользователя дизайн.</p>
+          
+          <h3 style="margin: 2rem 0 1rem;">Мой опыт</h3>
+          <div class="experience">
+            <div class="exp-item" style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid #eee;">
+              <h4 style="color: var(--primary-color);">Веб-разработчик | ТехноСофт</h4>
+              <p style="color: var(--text-light); margin-bottom: 0.5rem;">2020 - настоящее время</p>
+              <p>Разработка и поддержка веб-приложений для клиентов из различных отраслей. Работа в команде над крупными проектами с использованием современных технологий.</p>
+            </div>
+            <div class="exp-item" style="margin-bottom: 1.5rem;">
+              <h4 style="color: var(--primary-color);">Фриланс-разработчик</h4>
+              <p style="color: var(--text-light); margin-bottom: 0.5rem;">2018 - 2020</p>
+              <p>Создание сайтов и веб-приложений для малого и среднего бизнеса. Полный цикл разработки: от обсуждения концепции до реализации и поддержки.</p>
+            </div>
+          </div>
+          
+          <a href="contact.html" class="btn" style="margin-top: 2rem;">Связаться со мной</a>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1760&q=80" alt="Работа в команде">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="about" style="background-color: #f5f7fa; padding: 80px 0;">
+    <div class="container">
+      <h2 class="section-title">Мои навыки</h2>
+      <div class="skills-container" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <div class="skill-category" style="background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow);">
+          <h3 style="color: var(--primary-color); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;"><i class="fas fa-code"></i> Фронтенд</h3>
+          <div class="skills" style="display: flex; flex-wrap: wrap; gap: 0.8rem;">
+            <span class="skill">HTML5</span>
+            <span class="skill">CSS3</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">Vue.js</span>
+            <span class="skill">Bootstrap</span>
+            <span class="skill">SASS/SCSS</span>
+            <span class="skill">Responsive Design</span>
+          </div>
+        </div>
+        
+        <div class="skill-category" style="background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow);">
+          <h3 style="color: var(--primary-color); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;"><i class="fas fa-server"></i> Бэкенд</h3>
+          <div class="skills" style="display: flex; flex-wrap: wrap; gap: 0.8rem;">
+            <span class="skill">Node.js</span>
+            <span class="skill">Express.js</span>
+            <span class="skill">PHP</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">MongoDB</span>
+            <span class="skill">REST API</span>
+            <span class="skill">Git</span>
+          </div>
+        </div>
+        
+        <div class="skill-category" style="background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow);">
+          <h3 style="color: var(--primary-color); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px;"><i class="fas fa-paint-brush"></i> Дизайн & Инструменты</h3>
+          <div class="skills" style="display: flex; flex-wrap: wrap; gap: 0.8rem;">
+            <span class="skill">Figma</span>
+            <span class="skill">Adobe XD</span>
+            <span class="skill">Photoshop</span>
+            <span class="skill">UI/UX Design</span>
+            <span class="skill">Webpack</span>
+            <span class="skill">VS Code</span>
+            <span class="skill">GitHub</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <a href="index.html" class="logo" style="color: white;">Портфолио<span>.</span></a>
+        <p>Создаю цифровые продукты, которые вдохновляют</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 Мой Портфолио. Все права защищены.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Мобильное меню
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+    
+    // Закрытие меню при клике на ссылку
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        hamburger.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>

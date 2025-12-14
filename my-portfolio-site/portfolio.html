@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой Портфолио | Работы</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">Портфолио<span>.</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О себе</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Portfolio Hero -->
+  <section class="hero" style="padding: 150px 0 80px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text" style="color: white; text-align: center; width: 100%;">
+          <h1>Мои работы</h1>
+          <p style="font-size: 1.3rem; max-width: 800px; margin: 0 auto;">Последние проекты, над которыми я работал</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="about" style="padding: 80px 0;">
+    <div class="container">
+      <h2 class="section-title">Портфолио</h2>
+      <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem; font-size: 1.1rem;">Ниже представлены некоторые из моих недавних проектов. Каждый проект демонстрирует различные навыки и технологии, которые я использую в своей работе.</p>
+      
+      <div class="portfolio-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <!-- Проект 1 -->
+        <div class="portfolio-item" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow);">
+          <div class="portfolio-img" style="height: 250px; overflow: hidden;">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="Интернет-магазин" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+          </div>
+          <div class="portfolio-content" style="padding: 1.5rem;">
+            <h3 style="margin-bottom: 0.8rem;">Интернет-магазин "TechStore"</h3>
+            <p style="color: var(--text-light); margin-bottom: 1.2rem;">Полнофункциональный интернет-магазин электроники с системой корзины, оформления заказа и панелью администратора.</p>
+            <div class="portfolio-tech" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+              <span class="skill" style="font-size: 0.8rem;">React</span>
+              <span class="skill" style="font-size: 0.8rem;">Node.js</span>
+              <span class="skill" style="font-size: 0.8rem;">MongoDB</span>
+              <span class="skill" style="font-size: 0.8rem;">Stripe API</span>
+            </div>
+            <a href="#" class="btn" style="display: block; text-align: center;">Подробнее</a>
+          </div>
+        </div>
+        
+        <!-- Проект 2 -->
+        <div class="portfolio-item" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow);">
+          <div class="portfolio-img" style="height: 250px; overflow: hidden;">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1715&q=80" alt="Финансовый дашборд" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+          </div>
+          <div class="portfolio-content" style="padding: 1.5rem;">
+            <h3 style="margin-bottom: 0.8rem;">Финансовый аналитический дашборд</h3>
+            <p style="color: var(--text-light); margin-bottom: 1.2rem;">Веб-приложение для визуализации финансовых данных с графиками, отчетностью и возможностью фильтрации.</p>
+            <div class="portfolio-tech" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+              <span class="skill" style="font-size: 0.8rem;">Vue.js</span>
+              <span class="skill" style="font-size: 0.8rem;">D3.js</span>
+              <span class="skill" style="font-size: 0.8rem;">Express</span>
+              <span class="skill" style="font-size: 0.8rem;">Chart.js</span>
+            </div>
+            <a href="#" class="btn" style="display: block; text-align: center;">Подробнее</a>
+          </div>
+        </div>
+        
+        <!-- Проект 3 -->
+        <div class="portfolio-item" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow);">
+          <div class="portfolio-img" style="height: 250px; overflow: hidden;">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="Блог платформа" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+          </div>
+          <div class="portfolio-content" style="padding: 1.5rem;">
+            <h3 style="margin-bottom: 0.8rem;">Платформа для ведения блога</h3>
+            <p style="color: var(--text-light); margin-bottom: 1.2rem;">Современная платформа для блогинга с системой управления контентом, комментариями и тегами.</p>
+            <div class="portfolio-tech" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+              <span class="skill" style="font-size: 0.8rem;">Next.js</span>
+              <span class="skill" style="font-size: 0.8rem;">GraphQL</span>
+              <span class="skill" style="font-size: 0.8rem;">PostgreSQL</span>
+              <span class="skill" style="font-size: 0.8rem;">Prisma</span>
+            </div>
+            <a href="#" class="btn" style="display: block; text-align: center;">Подробнее</a>
+          </div>
+        </div>
+        
+        <!-- Проект 4 -->
+        <div class="portfolio-item" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow);">
+          <div class="portfolio-img" style="height: 250px; overflow: hidden;">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Мобильное приложение" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+          </div>
+          <div class="portfolio-content" style="padding: 1.5rem;">
+            <h3 style="margin-bottom: 0.8rem;">Мобильное приложение для задач</h3>
+            <p style="color: var(--text-light); margin-bottom: 1.2rem;">Кроссплатформенное приложение для управления задачами с синхронизацией между устройствами.</p>
+            <div class="portfolio-tech" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+              <span class="skill" style="font-size: 0.8rem;">React Native</span>
+              <span class="skill" style="font-size: 0.8rem;">Firebase</span>
+              <span class="skill" style="font-size: 0.8rem;">Redux</span>
+              <span class="skill" style="font-size: 0.8rem;">Expo</span>
+            </div>
+            <a href="#" class="btn" style="display: block; text-align: center;">Подробнее</a>
+          </div>
+        </div>
+        
+        <!-- Проект 5 -->
+        <div class="portfolio-item" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow);">
+          <div class="portfolio-img" style="height: 250px; overflow: hidden;">
+            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Корпоративный сайт" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+          </div>
+          <div class="portfolio-content" style="padding: 1.5rem;">
+            <h3 style="margin-bottom: 0.8rem;">Корпоративный сайт компании</h3>
+            <p style="color: var(--text-light); margin-bottom: 1.2rem;">Многостраничный сайт для IT-компании с каталогом услуг, портфолио и блогом.</p>
+            <div class="portfolio-tech" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+              <span class="skill" style="font-size: 0.8rem;">HTML/CSS</span>
+              <span class="skill" style="font-size: 0.8rem;">JavaScript</span>
+              <span class="skill" style="font-size: 0.8rem;">PHP</span>
+              <span class="skill" style="font-size: 0.8rem;">WordPress</span>
+            </div>
+            <a href="#" class="btn" style="display: block; text-align: center;">Подробнее</a>
+          </div>
+        </div>
+        
+        <!-- Проект 6 -->
+        <div class="portfolio-item" style="background: white; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow);">
+          <div class="portfolio-img" style="height: 250px; overflow: hidden;">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="Приложение для знакомств" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;">
+          </div>
+          <div class="portfolio-content" style="padding: 1.5rem;">
+            <h3 style="margin-bottom: 0.8rem;">Приложение для знакомств</h3>
+            <p style="color: var(--text-light); margin-bottom: 1.2rem;">Мобильное приложение для знакомств с системой матчинга, чатами и геолокацией.</p>
+            <div class="portfolio-tech" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+              <span class="skill" style="font-size: 0.8rem;">Flutter</span>
+              <span class="skill" style="font-size: 0.8rem;">Node.js</span>
+              <span class="skill" style="font-size: 0.8rem;">Socket.io</span>
+              <span class="skill" style="font-size: 0.8rem;">MongoDB</span>
+            </div>
+            <a href="#" class="btn" style="display: block; text-align: center;">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <a href="index.html" class="logo" style="color: white;">Портфолио<span>.</span></a>
+        <p>Создаю цифровые продукты, которые вдохновляют</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 Мой Портфолио. Все права защищены.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Мобильное меню
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+    
+    // Закрытие меню при клике на ссылку
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        hamburger.classList.remove('active');
+      });
+    });
+    
+    // Анимация при наведении на карточки портфолио
+    document.querySelectorAll('.portfolio-img img').forEach(img => {
+      img.addEventListener('mouseenter', function() {
+        this.style.transform = 'scale(1.1)';
+      });
+      
+      img.addEventListener('mouseleave', function() {
+        this.style.transform = 'scale(1)';
+      });
+    });
+  </script>
+</body>
+</html>

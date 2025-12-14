@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой Портфолио | Контакты</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">Портфолио<span>.</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О себе</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Hero -->
+  <section class="hero" style="padding: 150px 0 80px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text" style="color: white; text-align: center; width: 100%;">
+          <h1>Контакты</h1>
+          <p style="font-size: 1.3rem; max-width: 800px; margin: 0 auto;">Готов обсудить ваш проект или ответить на вопросы</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="about" style="padding: 80px 0;">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">Свяжитесь со мной</h2>
+          <p>Если у вас есть проект, который вы хотите начать, или вам нужна помощь с существующим проектом, свяжитесь со мной. Я постараюсь ответить как можно скорее.</p>
+          
+          <div class="contact-info" style="margin: 2.5rem 0;">
+            <div class="contact-item" style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="width: 50px; height: 50px; background-color: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem;">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4 style="margin-bottom: 0.3rem;">Email</h4>
+                <p style="color: var(--text-light);">alexey@example.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-item" style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+              <div style="width: 50px; height: 50px; background-color: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem;">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4 style="margin-bottom: 0.3rem;">Телефон</h4>
+                <p style="color: var(--text-light);">+7 (999) 123-45-67</p>
+              </div>
+            </div>
+            
+            <div class="contact-item" style="display: flex; align-items: center; gap: 1rem;">
+              <div style="width: 50px; height: 50px; background-color: var(--primary-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem;">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4 style="margin-bottom: 0.3rem;">Местоположение</h4>
+                <p style="color: var(--text-light);">Москва, Россия</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="social-links" style="margin-top: 2rem;">
+            <a href="#" style="font-size: 1.5rem; margin-right: 1rem;"><i class="fab fa-github"></i></a>
+            <a href="#" style="font-size: 1.5rem; margin-right: 1rem;"><i class="fab fa-linkedin"></i></a>
+            <a href="#" style="font-size: 1.5rem; margin-right: 1rem;"><i class="fab fa-telegram"></i></a>
+            <a href="#" style="font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-form" style="background-color: white; padding: 2.5rem; border-radius: 8px; box-shadow: var(--shadow);">
+          <h3 style="margin-bottom: 1.5rem;">Отправить сообщение</h3>
+          <form id="contactForm">
+            <div style="margin-bottom: 1.5rem;">
+              <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Имя *</label>
+              <input type="text" id="name" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-family: inherit;">
+            </div>
+            
+            <div style="margin-bottom: 1.5rem;">
+              <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Email *</label>
+              <input type="email" id="email" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-family: inherit;">
+            </div>
+            
+            <div style="margin-bottom: 1.5rem;">
+              <label for="subject" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Тема</label>
+              <input type="text" id="subject" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-family: inherit;">
+            </div>
+            
+            <div style="margin-bottom: 1.5rem;">
+              <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Сообщение *</label>
+              <textarea id="message" rows="5" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; font-family: inherit;"></textarea>
+            </div>
+            
+            <button type="submit" class="btn" style="width: 100%;">Отправить сообщение</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <a href="index.html" class="logo" style="color: white;">Портфолио<span>.</span></a>
+        <p>Создаю цифровые продукты, которые вдохновляют</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 Мой Портфолио. Все права защищены.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Мобильное меню
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+    
+    // Закрытие меню при клике на ссылку
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        hamburger.classList.remove('active');
+      });
+    });
+    
+    // Обработка формы
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Спасибо за ваше сообщение! Я свяжусь с вами в ближайшее время.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
