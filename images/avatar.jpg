@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виктор Вано - Строитель и Веб-разработчик</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Логотип (иконка безопасности/программиста) -->
+        <img src="https://cdn2.iconfinder.com/data/icons/computer-security-4/50/Computer_Security-22-1024.png" 
+             alt="Логотип: Код и безопасность" 
+             width="80" 
+             height="80" 
+             class="logo">
+        
+        <div class="header-text">
+            <h1>Виктор Вано</h1>
+            <p>Строитель и веб-разработчик</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>Обо мне</h2>
+            <p>Я занимаюсь строительством и веб-разработкой. Мои проекты сочетают надёжность и креативность.</p>
+            <!-- Добавь больше контента, если нужно -->
+        </section>
+
+        <section class="projects">
+            <h2>Проекты</h2>
+            <ul>
+                <li>Сайт для стройки</li>
+                <!-- Добавь изображения или ссылки -->
+            </ul>
+        </section>
+
+        <section class="schedule">
+            <h2>Расписание</h2>
+            <div class="task-form">
+                <input type="text" id="new-task" placeholder="Добавить задачу">
+                <button id="add-task-btn">Добавить</button>
+            </div>
+            <ul id="task-list">
+                <!-- Задачи добавляются JS -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Виктор Вано. Иконка от <a href="https://www.iconfinder.com/">Iconfinder</a>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
